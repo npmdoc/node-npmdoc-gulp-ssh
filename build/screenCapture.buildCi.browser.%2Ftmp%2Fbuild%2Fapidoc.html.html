@@ -56,6 +56,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-ssh.gulp-ssh">
+            function <span class="apidocSignatureSpan"></span>gulp-ssh
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.gulp-ssh.super_">
             function <span class="apidocSignatureSpan">gulp-ssh.</span>super_
             <span class="apidocSignatureSpan">()</span>
@@ -69,6 +78,25 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-ssh" id="apidoc.module.gulp-ssh">module gulp-ssh</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-ssh.gulp-ssh" id="apidoc.element.gulp-ssh.gulp-ssh">
+        function <span class="apidocSignatureSpan"></span>gulp-ssh
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function GulpSSH(options) {
+  if (!(this instanceof GulpSSH)) return new GulpSSH(options)
+  if (!options || !options.sshConfig) throw new Error('options.sshConfig required!')
+  this.options = options
+  this.connections = Object.create(null)
+  EventEmitter.call(this)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
