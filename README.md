@@ -1,9 +1,14 @@
-# api documentation for  [gulp-ssh (v0.6.0)](https://github.com/teambition/gulp-ssh)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-ssh.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-ssh) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-ssh.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-ssh)
+# npmdoc-gulp-ssh
+
+#### api documentation for  [gulp-ssh (v0.6.0)](https://github.com/teambition/gulp-ssh)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-ssh.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-ssh) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-ssh.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-ssh)
+
 #### SSH and SFTP tasks for gulp
 
-[![NPM](https://nodei.co/npm/gulp-ssh.png?downloads=true)](https://www.npmjs.com/package/gulp-ssh)
+[![NPM](https://nodei.co/npm/gulp-ssh.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-ssh)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-ssh/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-ssh%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-ssh/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-ssh/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-ssh/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-ssh/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-ssh/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-ssh/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Yan Qing",
-        "email": "admin@zensh.com",
         "url": "https://github.com/zensh"
     },
     "bugs": {
@@ -66,13 +70,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "zensh",
-            "email": "admin@zensh.com"
+            "name": "zensh"
         }
     ],
     "name": "gulp-ssh",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/teambition/gulp-ssh.git"
@@ -80,31 +82,9 @@
     "scripts": {
         "test": "standard && gulp test"
     },
-    "version": "0.6.0"
+    "version": "0.6.0",
+    "bin": {}
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-ssh](#apidoc.module.gulp-ssh)
-1.  [function <span class="apidocSignatureSpan">gulp-ssh.</span>super_ ()](#apidoc.element.gulp-ssh.super_)
-
-
-
-# <a name="apidoc.module.gulp-ssh"></a>[module gulp-ssh](#apidoc.module.gulp-ssh)
-
-#### <a name="apidoc.element.gulp-ssh.super_"></a>[function <span class="apidocSignatureSpan">gulp-ssh.</span>super_ ()](#apidoc.element.gulp-ssh.super_)
-- description and source-code
-```javascript
-function EventEmitter() {
-  EventEmitter.init.call(this);
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
